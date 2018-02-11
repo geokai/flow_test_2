@@ -2,7 +2,9 @@
 
 
 class Employee:
-    
+
+    version = '0.1'
+
     def __init__(self, first, last, pay):
         self.first = first
         self.last = last
