@@ -3,7 +3,7 @@
 
 class Employee:
 
-    version = '0.1'
+    version = '0.2'
 
     num_of_emps = 0
     raise_amount = 1.04
@@ -26,3 +26,7 @@ emp_1 = Employee('Corey', 'Schafer', 50000)
 emp_2 = Employee('Test', 'User', 60000)
 
 print(Employee.num_of_emps)
+
+emp_1.raise_amount = 1.05
+print(emp_1.apply_raise)
+print(emp_2.apply_raise)
