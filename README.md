@@ -58,6 +58,5 @@ _Merge made by recursive_\
 $ git branch -d release-1.2\
 _Deleted branch 'release-1.2'_
 
-Graph log mode can be used to display branching.\
-The recursive merge mode is used to maintain a historical record of feature and release branches.
 
+The recursive merge mode is used to maintain a historical record of feature and release branches.
