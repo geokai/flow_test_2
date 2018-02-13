@@ -1,9 +1,9 @@
-## manual flow use
+## Git manual work-flow
 
-This repo is a test-bed for the use of a manual flow implementation and
+This repo is a test-bed for the use of a manual work-flow implementation and
 evaluation of its use methods.
 
-The work-flow is taken from [A successful Git branching
+This work-flow is taken from [A successful Git branching
 model](http://nvie.com/posts/a-successful-git-branching-model/) by Vincent
 Driessen.
 
@@ -17,6 +17,7 @@ The branches:
 The following command groups are used in support of the the main
 constant branches, master and develop.
 
+## Features
 ### Creating a Feature Branch
 Feature branches are short-lived, existing only as long as their development\
 $ git checkout -b feature/myFeature develop\
@@ -32,8 +33,8 @@ $ git branch -d feature/myFeature\
 (feature branch deleted)\
 $ git push origin develop
 
-
-### Creating a release branch
+## Releases
+### Creating a Release branch
 Release branches are short-lived, existing only during the release preparation time.\
 The use of a dedicated release branch removes the _release responsibility_ from the develop\
 branch, allowing it to be continally developed.\
