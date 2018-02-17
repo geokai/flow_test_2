@@ -3,7 +3,7 @@
 
 class Employee:
 
-    version = '0.2'
+    version = '0.2.1'
 
     num_of_emps = 0
     raise_amount = 1.04
